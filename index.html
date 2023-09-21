@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Samsung</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="headerparent">
+        <div class="headerchild">
+            <div>
+                <img class="samsunglogo" src="images/samsunglogomain.png" alt="samsung logo">
+            </div>
+            <div class="leftrightelements">
+                <div class="headerleftelements">
+                    <p>Shop</p>
+                    <p>Mobile</p>
+                    <p>TV&AV</p>
+                    <p>Home Appliance</p>
+                    <p>IT</p>
+                    <p>Displays</p>
+                    <p>SmartThings</p>
+                </div>
+                <div class="headerrightelements">
+                    <p>Support</p>
+                    <p>For Buisness</p>
+                </div>
+            </div>
+            <div class="headerimages">
+                <div>
+                    <img class="searchlogo" src="images/searchsearch.avif" alt="search">
+                </div>
+                <div>
+                    <img class="searchlogo" src="images/headercart.png" alt="cart">
+                </div>
+                <div>
+                    <img class="headermenlogo" src="images/headermen.png" alt="men">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Section 1-->
+    <div>
+        <div class="section1parent">
+            <img class="section1mobileimg" src="images/section1mobileimg.avif" alt="samsung mobile">
+        </div>
+    </div>
+    <!--Section 2-->
+    <div class="section2main">
+        <div>
+            <p class="section2heading">Latest Deals</p>
+        </div>
+        <div class="section2subheading">
+            <p>Mobile</p>
+            <p>TV & AV</p>
+            <p>Home Appliances</p>
+        </div>
+        <div class="section2parent">
+            <div>
+    
+                <div>
+                    <div class="section2left">
+                        <div class="section2leftimg">
+                            <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/section2left.avif"
+                                alt="mobile">
+                        </div>
+                        <div class="zfold">
+                            <p>Galaxy Z Fold5</p>
+                        </div>
+                        <div id="original-text">
+                            <p>Get free Galaxy Buds2 Pro & S Pen case, 1-Year Samsung Care, and more online benefits</p>
+                        </div>
+                        <div id="replacement-text" class="hidden">
+                            <p>Buy Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="section2right">
+                    <div class="sec2sub1">
+                        <div class="sec2sub1child">
+                            <img class="subimgwidth" onmouseover="thiswidth(this)" onmouseout="thatwidth(this)" src="images/section2subimg1.avif" alt="">
+                        </div>
+                        <div class="epic">
+                            <p>#SharetheEpic with Galaxy S23 Ultra</p>
+                        </div>
+                        <div id="complimentary">
+                            <p>Get complimentary Galaxy Buds2 Pro, 1-Year Samsung Care, along with free delivery and more.</p>
+                        </div>
+                    </div>
+                    <div class="sec2sub1">
+                        <div class="sec2sub1child">
+                            <img class="subimgwidth"  onmouseover="thiswidth(this)" onmouseout="thatwidth(this)" src="images/section2subimg2.avif" alt="">
+                        </div>
+                        <div class="epic">
+                            <p>#SharetheEpic with Galaxy S23 Ultra</p>
+                        </div>
+                        <div id="complimentary">
+                            <p>Get complimentary Galaxy Buds2 Pro, 1-Year Samsung Care, along with free delivery and more.</p>
+                        </div>
+                    </div>
+                    <div class="sec2sub1">
+                        <div class="sec2sub1child">
+                            <img class="subimgwidth" onmouseover="thiswidth(this)" onmouseout="thatwidth(this)"  src="images/section2subimg3.avif" alt="">
+                        </div>
+                        <div class="epic">
+                            <p>#SharetheEpic with Galaxy S23 Ultra</p>
+                        </div>
+                        <div id="complimentary">
+                            <p>Get complimentary Galaxy Buds2 Pro, 1-Year Samsung Care, along with free delivery and more.</p>
+                        </div>
+                    </div>
+                    <div class="sec2sub1">
+                        <div class="sec2sub1child">
+                            <img class="subimgwidth" onmouseover="thiswidth(this)" onmouseout="thatwidth(this)"  src="images/setion2subimg4.avif" alt="">
+                        </div>
+                        <div class="epic">
+                            <p>#SharetheEpic with Galaxy S23 Ultra</p>
+                        </div>
+                        <div id="complimentary">
+                            <p>Get complimentary Galaxy Buds2 Pro, 1-Year Samsung Care, along with free delivery and more.</p>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <!--Section 3-->
+    <div>
+        <div>
+            <p>Mobile</p>
+        </div>
+        <div>
+            <p>Galaxy Z Fold5</p>
+            <p>Galaxy Z Flip5</p>
+            <p>Galaxy Unpacked Highlight</p>
+            <p>Galaxy S23 Ultra</p>
+            <p>Galaxy A14|A04e </p>
+        </div>
+    </div>
+<div class="zain">
+
+</div>
+
+
+
+
+    <script>
+        function bigImg(x) {
+            x.style.width = "410px";
+        }
+        function normalImg(x) {
+            x.style.width = "400px";
+        }
+        const originalText = document.getElementById("original-text");
+        const replacementText = document.getElementById("replacement-text");
+        originalText.addEventListener("mouseover", () => {
+            originalText.style.display = "none";
+            replacementText.style.display = "block";
+        });
+        replacementText.addEventListener("mouseout", () => {
+            replacementText.style.display = "none";
+            originalText.style.display = "block";
+        });
+        function thiswidth(x){
+            x.style.width= "180px";
+        }
+        function thatwidth(x){
+            x.style.width= "170px";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+body{
+    max-width: 100%;
+    margin: auto;
+
+}
+.zain{
+    height: 100px;
+}
+.headerparent{
+max-width: 1310px;
+margin: auto;
+padding-top: 16px;
+}
+.samsunglogo{
+    padding-top: 12px;
+}
+.headerchild{
+    display: flex;
+    justify-content: space-between;
+}
+.headerimages{
+    display: flex;
+    gap: 26px;
+    padding-top: 11px;
+}
+.searchlogo{
+    width: 24px;
+}
+.headermenlogo{
+    width: 17px;
+}
+.leftrightelements{
+    display: flex;
+    gap: 290px;
+}
+.headerleftelements{
+    display: flex;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    gap: 24px;
+    font-weight: bold;
+}
+.headerrightelements{
+    display: flex;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    gap: 24px;
+    font-weight: bold;
+}
+/*section 1*/
+.section1parent{
+    padding-top: 16px;
+}
+.section1mobileimg{
+   width: 100%;
+   height: 700px;
+    margin: auto;
+}
+/*Section 2*/
+.section2main{
+    padding-top: 40px;
+    max-width: 1310px;
+    margin: auto;
+}
+.section2heading{
+    text-align: center;
+    font-size: 44px;
+    margin: 0%;
+    font-weight: bold;
+}
+.section2subheading{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 12px;
+}
+.section2left{
+    background-color: #f5f5f2;
+    border-radius: 18px;
+    max-width: 645px;
+    height: 685px;
+}
+.section2leftimg{
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+}
+.zfold{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif ;
+    margin: 0%;
+    padding-top: 25px;
+}
+#original-text{
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif ;
+}
+#replacement-text{
+    text-align: center;
+    border-radius: 20px;
+    font-size: 11px;
+    padding: 1px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif ;
+    max-width: 100px;
+    margin: auto;
+}
+.hidden{
+    display: none;
+}
+.sec2sub1{
+    background-color: #f5f5f2;
+padding-top: 45px;
+border-radius: 16px;
+}
+.subimgwidth{
+    width: 170px;
+}
+.sec2sub1child{
+    display: flex;
+    justify-content: center;
+}
+.epic{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif ;
+    margin: 0%;
+    padding-top: 8px;
+    margin-bottom: 0%;
+}
+#complimentary{
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif ;
+    padding-bottom: 18px;
+}
+.section2right{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.section2parent{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 24px;
+    padding-top: 8px;
+}
+/*
+.hidden {
+    display: none;
+}
+/*
+.section2leftimg:hover{
+
+      transform: scale(1.05) rotate(0deg);
+    }
